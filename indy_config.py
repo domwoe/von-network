@@ -10,3 +10,5 @@ NODE_INFO_DIR = LEDGER_DIR
 
 CLI_BASE_DIR = '/home/indy/.indy-cli/'
 CLI_NETWORK_DIR = '/home/indy/.indy-cli/networks'
+
+ENABLE_DID_INDY = True
