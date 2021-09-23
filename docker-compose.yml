@@ -50,6 +50,14 @@ services:
       - webserver-cli:/home/indy/.indy-cli
       - webserver-ledger:/home/indy/ledger
 
+  indy-did-server:
+    image: domiwoe/indy-did-server:0.3
+    command: 'bash -c ''npm run start'''
+    ports:
+      - 9001:3000
+    networks:
+      - von
+
   #
   # Synchronization test
   #
