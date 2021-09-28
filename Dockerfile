@@ -1,4 +1,4 @@
-FROM domiwoe/did-indy-node:0.0.4
+FROM domiwoe/did-indy-node:0.0.5
 
 ENV LOG_LEVEL ${LOG_LEVEL:-info}
 ENV RUST_LOG ${RUST_LOG:-warning}

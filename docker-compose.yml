@@ -51,7 +51,7 @@ services:
       - webserver-ledger:/home/indy/ledger
 
   indy-did-server:
-    image: domiwoe/indy-did-server:0.3
+    image: domiwoe/indy-did-server:0.4
     command: 'bash -c ''npm run start'''
     ports:
       - 9001:3000
